@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureServiceBusTrigger", "AzureServiceBusTrigger\AzureServiceBusTrigger.csproj", "{EF01E19D-B707-4943-9E6B-9D9848B4F948}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureServiceBusTrigger.Tests", "AzureServiceBusTrigger.Tests\AzureServiceBusTrigger.Tests.csproj", "{3EE02E0E-1685-4B34-98DB-2ABEF8F9F78B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF01E19D-B707-4943-9E6B-9D9848B4F948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF01E19D-B707-4943-9E6B-9D9848B4F948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF01E19D-B707-4943-9E6B-9D9848B4F948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF01E19D-B707-4943-9E6B-9D9848B4F948}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EE02E0E-1685-4B34-98DB-2ABEF8F9F78B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE02E0E-1685-4B34-98DB-2ABEF8F9F78B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE02E0E-1685-4B34-98DB-2ABEF8F9F78B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE02E0E-1685-4B34-98DB-2ABEF8F9F78B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
