@@ -1,2 +1,2 @@
 # AzureServiceBusTrigger
-Using HTTP WebHooks and long polling of Azure Service Bus queues and subscriptions to provide an event-based trigger when a message is received in the queue or subscription
+Using the long-polling support and the onMessage event within the Azure Service Bus libraries, create an event-based trigger which will react on new messages being received on a queue or a subscription
