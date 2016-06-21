@@ -1,5 +1,5 @@
 # AzureServiceBusTrigger
-Using the long-polling support and the onMessage event within the Azure Service Bus libraries, create an event-based trigger which will react on new messages being received on a queue or a subscription. Combining this with HTTP WebHook support enables the solution to run as an Azure Web Site, and post received message info to a callback URL, such as the one available via Azure Logic Apps WebHook triggers.
+A sample HTTP WebHook-based solution, using the long-polling support and the onMessage event within the Azure Service Bus libraries, to create an event-based trigger which will react on new messages being received on a queue or a subscription. Combining this with HTTP WebHook support enables the solution to run as an Azure Web Site, and post received message info to a callback URL, such as the one available via Azure Logic Apps WebHook triggers.
 
 ## Usage Guide ##
 To use this solution, we first need to get the service deployed and configured:
