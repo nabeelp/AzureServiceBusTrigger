@@ -67,6 +67,9 @@ To reference the deployed service from a Logic App:
 - Build up the rest of the Logic App and then Enable it to have the HTTP WebHook send a subscription request to the service
 - Post a message on the queue / subscription configured above and the Logic App should trigger almost immediately
 
+## THANKS ##
+Thanks to [Jeff Hollan](https://github.com/jeffhollan) for the great assistance in getting me started on the right path!
+
 ## TODO ##
 - Automatically determine the current subscription
 - Create an easier deployment process
